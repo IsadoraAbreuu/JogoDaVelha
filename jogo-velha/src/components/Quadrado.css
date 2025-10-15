@@ -16,3 +16,58 @@
     inset 0 -4px 6px rgba(0, 0, 0, 0.2), /* Sombra interna profundidade */
     inset 0 4px 6px rgba(255, 255, 255, 0.5); 
 }
+
+.containerJogo {
+  text-align: center;
+  padding: 20px;
+  border-radius: 16px;
+  transition: background 0.4s ease;
+}
+
+/* ===== Temas ===== */
+.tema-azul {
+  background-color: #3498db;
+  color: white;
+}
+
+.tema-rosa {
+  background-color: #e73cb7;
+  color: white;
+}
+
+.tema-verde {
+  background-color: #2ecc71;
+  color: white;
+}
+
+/* ===== Botões de tema ===== */
+.temas {
+  margin-top: 12px;
+}
+
+.temas button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  margin: 0 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.temas button:hover {
+  transform: scale(1.1);
+}
+
+.btnAzul {
+  background-color: #3498db;
+}
+
+.btnRosa {
+  background-color: #e73cb7;
+}
+
+.btnVerde {
+  background-color: #2ecc71;
+}
